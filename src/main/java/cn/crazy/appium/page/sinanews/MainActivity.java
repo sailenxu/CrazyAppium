@@ -25,6 +25,7 @@ public class MainActivity {
 //        System.out.println(ll.get(1).getText());
 //        ll.get(1).click();
         driver.context("WEBVIEW");
+        driver.switchTo();
         //跳转进新闻详情页webview
         Set context = driver.getContextHandles();
         for (Object c:context){
